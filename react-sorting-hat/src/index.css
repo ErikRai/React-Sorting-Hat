@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2 {
+  color: black;
+  background-color: #000;
+  background: conic-gradient(
+    #ebc803 33.33%, 
+    #ad0000 33.333%,
+    #006d21 100.333%);  
+  background-size: 25%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
